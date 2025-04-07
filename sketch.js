@@ -28,7 +28,7 @@ function hexToRGB(hex) {
 function preload() {
     gradient = loadImage('Sphira-logo-36.png');
     logo = loadModel('Sphira-logo-11.obj', true);
-    myShader = loadShader('./shaders/vert.glsl', './shaders/frag.glsl');
+    myShader = loadShader('vert.glsl', 'frag.glsl');
 }
 
 function setup() {
